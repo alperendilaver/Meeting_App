@@ -1,0 +1,30 @@
+@model UserInfo
+@{
+    ViewBag.Title = "Katilim Formu";
+    Layout="_Layout2";
+}
+    <h1 class="h4 text-center">Toplanti Katilim Formu</h1>
+    <form method="post" action="/Meeting/Apply">
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input asp-for="Name" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Phone" class="form-label">Phone</label>
+            <input asp-for="Phone" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="Email" class="form-label">Email</label>
+            <input asp-for="Email" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label asp-for="WillAttend" class="form-label">Katılacak mısınız</label>
+            <select asp-for="WillAttend" class="form-control">
+                <option value="true">Evet</option>
+                <option value="false">Hayır</option>
+            </select>
+
+        </div>
+        <button type="submit" class="btn btn-primary" >Kaydet</button>
+    </form> 

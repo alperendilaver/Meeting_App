@@ -1,0 +1,11 @@
+@model UserInfo
+@{
+    ViewBag.Title = "Basvuru Detayı";
+}
+<main class="text-center">
+    <h1 class="h4">Basvuru Detayı</h1>
+    <p>İsim: @Model.Name</p>
+    <p>İsim: @Model.Email</p>
+    <p>İsim: @Model.Phone</p>
+    <a asp-action="List" class="btn btn-outline-primary">Katılımcı Listesi</a>
+</main>

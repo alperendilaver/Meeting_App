@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "WoEDMZdPl19X+xVszdcxb2C8r2A5DnH0hak5MCa6tV6wZ7LKKuQX8jY1dJTo2+8tzn1TtyB4A5eLuB0TNWZRFQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alperen\\Desktop\\dotnetmeetingapp\\MeetingApp\\MeetingApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
+    "C:\\Users\\Alperen\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
+  ],
+  "logs": []
+}
